@@ -75,8 +75,12 @@ class Program
             sign = "";
         }
 
-        Console.WriteLine($"Your full grade is: {letter}{sign}");
+        if (letter != "F")
+        {
+                    Console.WriteLine($"Your full grade is: {letter}{sign}");
 
+        }
+        
         //Pass if the grade is B or Higher
         if (percentage >= 80)
         {
