@@ -31,6 +31,7 @@ class Program
             Console.WriteLine("2. Display the journal");
             Console.WriteLine("3. Save the journal to a file");
             Console.WriteLine("4. Load the journal from a file");
+            Console.WriteLine("5. Exit");
             Console.Write("Select a choice from the menu: ");
 
             string input = Console.ReadLine();
